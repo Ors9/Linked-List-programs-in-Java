@@ -20,5 +20,5 @@ The `IntListTwo` class represents a doubly linked list of integers. It provides 
 
 Each class includes detailed Javadoc comments explaining the purpose of the class and each of its methods.
 
-Feel free to explore the code and use it in your projects!
+Feel free to explore the code and learn from it!
 

@@ -18,7 +18,5 @@ The `IntNodeTwo` class represents a node in a doubly linked list. Similar to `In
 
 The `IntListTwo` class represents a doubly linked list of integers. It provides methods to manipulate the list, such as adding elements to the end, converting the list to a string, and checking for a valid path within the list.
 
-Each class includes detailed Javadoc comments explaining the purpose of the class and each of its methods.
-
 Feel free to explore the code and learn from it!
 

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IntList
+comment0.text=\r\n\ \ Represents\ a\ singly\ linked\ list\ of\ integers.\r\n\ This\ class\ provides\ methods\ to\ manipulate\ the\ list,\ such\ as\ adding\ elements,\ \r\n\ converting\ the\ list\ to\ a\ string,\ and\ performing\ operations\ on\ sublists.\r\n\ \r\n\r\n\ @author\ Or\ Saban\ \r\n
+comment1.params=
+comment1.target=IntList()
+comment2.params=num
+comment2.target=void\ addToEnd(int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=num
+comment4.target=boolean\ subListSum(int)
+comment4.text=\r\n\ Finds\ if\ there\ exists\ a\ subList\ whose\ elements\ sum\ up\ to\ a\ specific\ number.\r\n\ Sliding\ window\ algorithm\ is\ employed\ for\ efficient\ exploration\ of\ subLists.\r\n\ Time\ complexity\ -\ O(n)\ where\ n\ is\ the\ number\ of\ elements\ in\ the\ linked\ list\r\n\ ,\ as\ each\ node\ is\ visited\ at\ most\ twice.\r\n\ Space\ complexity\ -\ O(1)\ the\ space\ complexity\ is\ constant.\r\n\ \r\n\ @param\ num\ The\ target\ sum\ to\ check\ for\r\n\ @return\ True\ if\ there\ exists\ a\ subList,\ false\ otherwise\r\n
+comment5.params=
+comment5.target=IntNode\ averageNode()
+comment5.text=\r\n\ Finds\ the\ node\ that\ divides\ the\ list\ to\ maximize\ the\ difference\ between\r\n\ the\ averages\ of\ the\ two\ parts.\r\n\ Algorithm\ Description\:\r\n\ 1.\ Calculate\ the\ total\ sum\ and\ length\ of\ the\ entire\ list.\r\n\ 2.\ Iterate\ through\ the\ list,\ maintaining\ two\ parts\ and\ calculating\ averages\ for\ each\ division\ point.\r\n\ 3.\ Track\ the\ node\ that\ maximizes\ the\ absolute\ difference\ between\ the\ averages.\r\n\ 4.\ Return\ the\ node\ that\ optimally\ divides\ the\ list.\r\n\r\n\ Time\ Complexity\:\ O(n)\r\n\ -\ The\ algorithm\ iterates\ through\ the\ entire\ linked\ list\ once.\r\n\ -\ The\ loop\ runs\ in\ linear\ time\ with\ respect\ to\ the\ number\ of\ nodes\ in\ the\ list.\r\n\r\n\ Space\ Complexity\:\ O(1)\r\n\ -\ The\ algorithm\ uses\ a\ constant\ amount\ of\ space\ for\ variables,\ regardless\ of\ the\ input\ size.\r\n\r\n\ @return\ The\ node\ that\ optimally\ divides\ the\ list,\ or\ null\ if\ the\ list\ is\ empty\ or\ has\ only\ one\ element.\r\n
+numComments=6

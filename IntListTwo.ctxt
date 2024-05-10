@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=IntListTwo
+comment0.text=\r\n\ Represents\ a\ doubly\ linked\ list\ of\ integers.\r\n\ This\ class\ provides\ methods\ to\ manipulate\ the\ list,\ such\ as\ adding\ elements,\ \r\n\ converting\ the\ list\ to\ a\ string,\ and\ checking\ for\ a\ valid\ path.\r\n\ \r\n\ @author\ Or\ Saban\ \r\n
+comment1.params=
+comment1.target=IntListTwo()
+comment2.params=num
+comment2.target=void\ addToEnd(int)
+comment2.text=\r\n\ Adds\ a\ new\ node\ with\ the\ given\ number\ to\ the\ end\ of\ a\ doubly\ linked\ list.\r\n\ Time\ complexity\ \=\ O(1)\ constant\ time\ for\ inserting\ at\ the\ end.\ \r\n\ The\ space\ complexity\ \=\ O(1)\ for\ each\ new\ element\ added\ to\ the\ list\ because\ only\r\n\ a\ constant\ amount\ of\ additional\ space\ is\ required\ for\ the\ new\ node.\r\n\ @param\ num\ The\ number\ to\ be\ added\ to\ the\ end\ of\ the\ list\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ \ returns\ the\ list\ as\ string\ from\ the\ start\ to\ the\ end,if\ empty\ returns\ "".\r\n\ \ Time\ complexity\ -\ O(n),\ where\ n\ is\ the\ number\ \r\n\ \ of\ elements\ in\ the\ linked\ list.\r\n\ \ Space\ complexity\ -\ O(1)\ because\ the\ method\ uses\ a\ constant\ amount\ \r\n\ \ of\ additional\ space\ regardless\ of\ the\ size\ of\ the\ input.\r\n\ \ \r\n
+comment4.params=
+comment4.target=java.lang.String\ toStringReverse()
+comment4.text=\r\n\ Returns\ a\ reversed\ string\ representation\ of\ the\ linked\ list\ enclosed\ in\ curly\ braces,when\ empty\ return\ "".\r\n\ Calls\ the\ private\ helper\ method\ toStringReverse\ to\ perform\ the\ reversal.\r\n\r\n\ @return\ Reversed\ string\ representation\ of\ the\ linked\ list.\r\n
+comment5.params=reverseStr\ curr
+comment5.target=java.lang.String\ toStringReverse(java.lang.String,\ IntNodeTwo)
+comment5.text=\r\n\ Private\ helper\ method\ to\ recursively\ build\ the\ reversed\ string\ representation\ of\ the\ linked\ list.\r\n\r\n\ @param\ reverseStr\ The\ string\ being\ constructed\ in\ reverse\ order.\r\n\ @param\ curr\ The\ current\ node\ being\ processed.\r\n\ @return\ Reversed\ string\ representation\ of\ the\ linked\ list.\r\n
+comment6.params=
+comment6.target=boolean\ isWay()
+comment6.text=\r\n\ Checks\ if\ there\ is\ a\ valid\ path\ in\ the\ two-way\ linked\ list.\r\n\ A\ valid\ path\ is\ defined\ as\ a\ series\ of\ links\ in\ the\ list,\ starting\ at\ the\ top\ of\ the\ list\r\n\ and\ moving\ forward\ to\ end\ at\ another\ link\ in\ the\ list.\ Each\ link's\ value\ represents\ the\ number\r\n\ of\ steps\ that\ can\ be\ taken\ to\ the\ left\ or\ right.\r\n\r\n\ @return\ true\ if\ there\ is\ a\ valid\ path,\ false\ otherwise.\r\n
+comment7.params=curr\ countStep
+comment7.target=boolean\ isWay(IntNodeTwo,\ int)
+comment7.text=\r\n\ Private\ helper\ method\ to\ recursively\ check\ for\ a\ valid\ path\ in\ the\ two-way\ linked\ list.\r\n\ @param\ countStep\ The\ count\ of\ steps.\r\n\ @param\ curr\ \ \ \ \ \ \ \ \ \ \ The\ current\ node\ being\ processed.\r\n\ @return\ true\ if\ a\ valid\ path\ is\ found,\ false\ otherwise.\r\n
+numComments=8

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=IntNode
+comment0.text=\r\n\ Represents\ a\ node\ in\ a\ singly\ linked\ list\ of\ integers.\r\n\ This\ class\ provides\ methods\ to\ get\ and\ set\ the\ value\ of\ the\ node,\r\n\ as\ well\ as\ to\ get\ and\ set\ the\ reference\ to\ the\ next\ node.\r\n\ \r\n\ @author\ Or\ Saban\r\n\r\n
+comment1.params=val\ n
+comment1.target=IntNode(int,\ IntNode)
+comment1.text=\r\n\ Constructs\ a\ new\ IntNode\ with\ the\ given\ value\ and\ next\ node.\r\n\ \r\n\ @param\ val\ The\ integer\ value\ to\ be\ stored\ in\ the\ node\r\n\ @param\ n\ The\ next\ node\ in\ the\ list\r\n
+comment2.params=val
+comment2.target=IntNode(int)
+comment2.text=\r\n\ Constructs\ a\ new\ IntNode\ with\ the\ given\ value\ and\ no\ next\ node.\r\n\ \r\n\ @param\ val\ The\ integer\ value\ to\ be\ stored\ in\ the\ node\r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ Returns\ the\ integer\ value\ stored\ in\ the\ node.\r\n\ \r\n\ @return\ The\ integer\ value\ of\ the\ node\r\n
+comment4.params=
+comment4.target=IntNode\ getNext()
+comment4.text=\r\n\ Returns\ the\ reference\ to\ the\ next\ node.\r\n\ \r\n\ @return\ The\ reference\ to\ the\ next\ node\r\n
+comment5.params=v
+comment5.target=void\ setValue(int)
+comment5.text=\r\n\ Sets\ the\ integer\ value\ of\ the\ node.\r\n\ \r\n\ @param\ v\ The\ new\ integer\ value\ to\ be\ set\r\n
+comment6.params=node
+comment6.target=void\ setNext(IntNode)
+comment6.text=\r\n\ Sets\ the\ reference\ to\ the\ next\ node.\r\n\ \r\n\ @param\ node\ The\ new\ next\ node\r\n
+numComments=7
